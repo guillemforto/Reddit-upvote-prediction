@@ -1,6 +1,6 @@
 # Reddit Upvote Prediction
 
-This Kaggle competition consisted in predicting the score of over 1 milion Reddit comment scores from multiple available comment attributes, as well as addition features that we engineered.<br>
+This Kaggle competition consisted in predicting the score of over a million Reddit comment scores from multiple available comment attributes, as well as addition features that we engineered.<br>
 The data handled came from the [Reddit](https://fr.wikipedia.org/wiki/Reddit) website. More specifically, the dataset contained all comments on the [AskReddit subreddit](https://www.reddit.com/r/AskReddit/) published on the platform during May 2015.
 
 **Authors:** Guillem Fortó / Jade Henry
@@ -26,16 +26,19 @@ pip install tensorflow
 
 
 ## Running the code
-Each notebook (.ipynb files) can be run independently. If you want to check how we got the engineered features, start by having a look at 1getting_the_features.ipynb. Otherwise, you can directly go to 2modelisation.ipynb and import the dataframe (final_df.pkl) containing all the engineered features to start making predictions.
+Start by downloading the necessary data files:
+- `comments_students.csv` contains the initial basic features available on Kaggle and the variable ups to predict: https://www.dropbox.com/s/coeojwrby3g6slo/comments_students.csv?dl=0
+- `df_all_features.pkl`: https://www.dropbox.com/s/yz43zs1oj11cgh3/df_all_features.pkl?dl=0
+
+Each notebook (.ipynb files) can be run independently. If you want to check how we got the engineered features, start by having a look at `1getting_the_features.ipynb`. Otherwise, you can directly go to `2modelisation.ipynb` and import the downloaded dataframe (.pkl file) containing all the engineered features in order to start making predictions.
 
 If you want to check the score obtained with our best submission, use:
 ```bash
 import pandas as pd
-the_dark_side_of_eigenvectors_pred = pd.read_csv("best_submission.csv")
+best = pd.read_csv("best_submission.csv")
 ```
 
-## Addition information on the notebooks content
-
+## Additional information on the notebooks content
 	NOTEBOOK 1 : ENGINEERED FEATURES
 	-------------------------------
 		- Content based features (attached urls, link to other comments, text mining...)
