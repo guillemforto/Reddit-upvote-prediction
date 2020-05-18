@@ -1,0 +1,55 @@
+ALL FEATURES
+
+- created_utc
+- ups
+- link_id
+- name
+- id
+- author
+- body
+- parent_id
+
+CONTENT
+- nb_linked_sr
+- subjectivity
+- exclamation
+- nb_urls
+- nb_pop_urls
+- word_count
+- vocabulary_richness
+- is_quoting
+- nb_emojis
+
+
+TEXT MINING
+- 25 tokens
+
+
+SENTIMENT
+- senti_neg
+- senti_neu
+- senti_pos
+- senti_comp
+
+
+STRUCTURAL
+- nb_author_thread
+- is_root
+- nb_neighbours
+- depth
+- degree centrality
+- betweenness_centrality
+- eigenvector_centrality
+- nb_com_author
+- order_com
+- parent_score
+
+
+TIME
+- time
+- time_lapse
+- hour
+- weekday
+- time_since_parent
+
+
