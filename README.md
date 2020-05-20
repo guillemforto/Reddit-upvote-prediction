@@ -1,4 +1,4 @@
-# Reddit Upvote Prediction &nbsp; &nbsp; <img alt="reddit_logo.png" src="/Users/guillemforto/github/reddit_upvote_prediction/reddit_logo.png" width="50" height="50">
+# Reddit Upvote Prediction &nbsp; &nbsp; <img alt="reddit_logo.png" src="reddit_logo.png" width="50" height="50">
 
 This Kaggle competition consisted in predicting the score of over a million Reddit comments using some already available attributes, as well as multiple additional features that we engineered ourselves.<br>
 The data handled came from the [Reddit](https://fr.wikipedia.org/wiki/Reddit) website. More specifically, it contained all comments scraped from the [AskReddit subreddit](https://www.reddit.com/r/AskReddit/), that were published on the platform during May 2015.
