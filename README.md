@@ -48,22 +48,15 @@ We didn't mention it so far, but we also used SQL Data Definition Language to cr
 Once the relational schema was build, this was useful to run some preliminar exploratory analysis on the different tables. Some basic queries that could be run with SQL directly are in the .sql file, and more advanced ones are in the Python file.
 
 - **Jupyter notebooks**
+	- **1getting_the_features.ipynb**
+		- Content based features (attached urls, link to other comments, text mining...). Please find the complete list of features in `all_features.txt`
+		- Structural features (depth, author centrality...)
+		- Stylometric features (sentiment analysis)
 
-
-	NOTEBOOK 1 : ENGINEERED FEATURES
-	-------------------------------
-	- Content based features (attached urls, link to other comments, text mining...)
-	- Structural features (depth, author centrality...)
-	- Stylometric features (sentiment analysis)
-
-	Please find the complete list of features in all_features.txt
-
-
-	NOTEBOOK 2 : MODELS USED
-	---------------------------
-	- Before submitting, we tested our model on a validation set, drawn from the train set.
-	- We tried a Random Forest, XGBoost, and a Neural Network.
-	- The evaluation metric is the Mean Average Error (MAE).
+	- **2modelisation.ipynb**
+		- Before submitting, we tested our model on a validation set, drawn from the train set.
+		- We tried a Random Forest, XGBoost, and a Neural Network.
+		- The evaluation metric is the Mean Average Error (MAE).
 
 
 ## External informative resources
