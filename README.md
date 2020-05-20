@@ -1,5 +1,7 @@
 # Reddit Upvote Prediction
 
+<img alt="reddit_logo.png" src="/Users/guillemforto/github/reddit_upvote_prediction/reddit_logo.png" width="50" height="50"> <br>
+
 This Kaggle competition consisted in predicting the score of over a million Reddit comment scores from multiple available comment attributes, as well as addition features that we engineered.<br>
 The data handled came from the [Reddit](https://fr.wikipedia.org/wiki/Reddit) website. More specifically, the dataset contained all comments on the [AskReddit subreddit](https://www.reddit.com/r/AskReddit/) published on the platform during May 2015.
 
@@ -28,7 +30,7 @@ pip install tensorflow
 ## Running the code
 Start by downloading the necessary data files:
 - `comments_students.csv` contains the initial basic features available on Kaggle and the variable ups to predict: https://www.dropbox.com/s/coeojwrby3g6slo/comments_students.csv?dl=0
-- `df_all_features.pkl`: https://www.dropbox.com/s/yz43zs1oj11cgh3/df_all_features.pkl?dl=0
+- `df_all_features.pkl`: https://www.dropbox.com/s/rufg783pt9svn1b/df_all_features.pkl?dl=0
 
 Each notebook (.ipynb files) can be run independently. If you want to check how we got the engineered features, start by having a look at `1getting_the_features.ipynb`. Otherwise, you can directly go to `2modelisation.ipynb` and import the downloaded dataframe (.pkl file) containing all the engineered features in order to start making predictions.
 
