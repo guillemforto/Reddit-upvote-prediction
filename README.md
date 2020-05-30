@@ -28,8 +28,8 @@ If you also want to run the .sql files, you'll need to install [sqlite3](https:/
 
 ## Running the code
 Start by downloading the necessary data files:
-- `comments_students.csv` contains the initial basic features available on Kaggle and the variable ups to predict: https://www.dropbox.com/s/coeojwrby3g6slo/comments_students.csv?dl=0
-- `df_all_features.pkl` is the final dataframe containing all the features: https://www.dropbox.com/s/rufg783pt9svn1b/df_all_features.pkl?dl=0
+- `comments_students.csv` contains the initial basic features available on Kaggle and the variable ups to predict: https://www.dropbox.com/s/8of9fos8xs1ptfa/comments_students.csv?dl=0
+- `df_all_features.pkl` is the final dataframe containing all the features: https://www.dropbox.com/s/zlcjha2spy4pdpu/df_all_features.pkl?dl=0
 
 Each notebook (.ipynb files) can be run independently. If you want to check how we got the engineered features, start by having a look at `1getting_the_features.ipynb`. Otherwise, you can directly go to `2modelisation.ipynb` and import the downloaded dataframe (pickle file) in order to start making predictions.
 

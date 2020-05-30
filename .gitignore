@@ -1,2 +1,2 @@
-comments_students.csv
-df_all_features.pkl
+.DS_Store
+__pycache__/
